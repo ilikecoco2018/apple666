@@ -1,0 +1,583 @@
+@import url("base.css");
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: #444444;
+}
+header .advertising{
+    /*width: 974px;*/
+    height: 40px;
+    /*background: pink;*/
+    margin: 0 auto;
+    font-size: 10px;
+    color:#a8a8aa;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+nav{
+    width: 100%;
+    height: 44px;
+    background: #333333;
+}
+nav ul{
+
+    height: 44px;
+    /*background: pink;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul a{
+    color:#fff;
+    font-size: 12px;
+}
+nav ul a{
+    display: block;
+    height: 100%;
+    line-height: 44px;
+    text-align: center;
+}
+nav ul a:hover{
+    color:#b7b7b7;
+}
+.list,.list ul{
+    width: 100%;
+    height: auto;
+    /*background: skyblue;*/
+}
+.list ul li{
+    width: 100%;
+    /*height: 580px;*/
+    /*background: pink;*/
+    margin-bottom: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.list ul li a{
+    display: block;
+    width:100% ;
+    height: 100%;
+}
+.iphoneX{
+    background: #fafafa;
+}
+.iphoneX h1{
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+.iphoneX h2{
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+.iphoneX span{
+    display: block;
+    color:#2383d0;
+    text-align: center;
+}
+.iphoneX div{
+    position: absolute;
+    bottom:-32px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.ipad{
+    background: #f5f5f5;
+}
+.ipad h1{
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+.ipad h2{
+    color: #111111;
+    text-align: center;
+    font-weight: normal;
+}
+.ipad span{
+    display: block;
+    color:#2383d0;
+    text-align: center;
+}
+.ipad div{
+    position: absolute;
+    bottom:-32px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.MacBook h1{
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+.MacBook h2{
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+.MacBook span{
+    display: block;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+.MacBook{
+    width: 100%;
+    height: 100%;
+    background: url("../img/macbook_pro_performance_large.jpg") no-repeat center;
+    /*background-size: 100% 580px;*/
+}
+
+.sixth{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+/*.sixth ul li {*/
+    /*width: 50%;*/
+    /*height: 592px;*/
+    /*border-left:12px solid #fff ;*/
+    /*border-right:6px solid #fff ;*/
+    /*border-bottom:12px solid #fff ;*/
+    /*box-sizing:border-box;*/
+    /*float: left;*/
+    /*background: #2383d0;*/
+/*}*/
+
+.sixth ul li a{
+    display: block;
+    overflow: hidden;
+}
+.sixth_first h4{
+    width: 100%;
+    /*height: 53px;*/
+    /*font-size: 34px;*/
+    color:#111;
+    /*line-height: 53px;*/
+    text-align: center;
+    /*margin-top: 45px;*/
+}
+.sixth_first p{
+    /*width: 411px;*/
+    /*height: 52px;*/
+    margin: 0 auto;
+    /*font-size: 19px;*/
+    color: #111111;
+    /*line-height: 26px;*/
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    .advertising{
+        width: 976px;
+    }
+    nav ul{
+        width: 976px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    .iphoneX h1{
+        width: 100%;
+        height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 88px;
+    }
+    .iphoneX h2{
+        width: 100%;
+        height: 44px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .iphoneX span{
+        display: block;
+        width: 100%;
+        height: 43px;
+        font-size: 18px;
+        line-height: 43px;
+    }
+    .iphoneX div{
+         width: 1068px;
+         height: 337px;
+         background:url("../img/iphone_x_large.jpg") no-repeat center;
+         background-size:1068px 337px ;
+     }
+    .ipad h1{
+        width: 100%;
+        height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 88px;
+    }
+    .ipad h2{
+        width: 100%;
+        height: 44px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .ipad span{
+        display: block;
+        width: 100%;
+        height: 43px;
+        font-size: 18px;
+        line-height: 43px;
+    }
+    .ipad div{
+        width: 930px;
+        height: 355px;
+        background:url("../img/ipad_large.jpg") no-repeat center;
+        background-size:930px 355px ;
+    }
+
+
+    .MacBook h1{
+        width: 100%;
+        height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 88px;
+    }
+    .MacBook h2{
+        width: 100%;
+        height: 44px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .MacBook span{
+        display: block;
+        width: 100%;
+        height: 43px;
+        font-size: 18px;
+        line-height: 43px;
+    }
+    .MacBook{
+        background: url("../img/macbook_pro_performance_large.jpg") no-repeat center;
+        /*background-size: 100% 580px;*/
+    }
+    .list ul li {
+        height: 580px;
+    }
+    .sixth ul li {
+        width: 50%;
+        height: 592px;
+        border-left:12px solid #fff ;
+        border-right:6px solid #fff ;
+        border-bottom:12px solid #fff ;
+        box-sizing:border-box;
+        float: left;
+    }
+    .sixth ul li a{
+        width: 100%;
+        height: 100%;
+        background: url("../img/shop_for_college_large.jpg") no-repeat center;
+    }
+    .sixth ul li:nth-child(2n){
+        border-left:6px solid #fff ;
+        border-right:12px solid #fff;
+    }
+    .sixth_first h4{
+        height: 53px;
+        font-size: 34px;
+        line-height: 53px;
+        margin-top: 45px;
+    }
+    .sixth_first p{
+        width: 411px;
+        height: 52px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .advertising{
+        padding-right: 22px;
+    }
+    nav ul{
+        padding:0 22px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    .iphoneX h1{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .iphoneX h2{
+        width: 100%;
+        height: 37px;
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .iphoneX span{
+        display: block;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .iphoneX div {
+        width: 736px;
+        height: 336px;
+        background: url("../img/iphone_x_medium.jpg") no-repeat center;
+        background-size: 736px 336px;
+    }
+
+    /*ipad*/
+    .ipad h1{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .ipad h2{
+        width: 100%;
+        height: 37px;
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .ipad span{
+        display: block;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .ipad div {
+        width: 650px;
+        height: 325px;
+        background: url("../img/ipad_medium.jpg") no-repeat center;
+        background-size: 650px 325px;
+    }
+
+
+    .MacBook h1{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .MacBook h2{
+        width: 100%;
+        height: 37px;
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .MacBook span{
+        display: block;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .MacBook{
+        background: url("../img/macbook_pro_performance_medium.jpg") no-repeat center;
+        /*background-size: 100% 580px;*/
+    }
+    .list ul li {
+        height: 580px;
+    }
+    .sixth ul li {
+        width: 50%;
+        height: 502px;
+        border-left:12px solid #fff ;
+        border-right:6px solid #fff ;
+        border-bottom:12px solid #fff ;
+        box-sizing:border-box;
+        float: left;
+    }
+    .sixth ul li a{
+        width: 100%;
+        height: 100%;
+        background: url("../img/shop_for_college_medium.jpg") no-repeat center;
+    }
+    .sixth ul li:nth-child(2n){
+        border-left:6px solid #fff ;
+        border-right:12px solid #fff;
+    }
+    .sixth_first h4{
+        height: 37px;
+        font-size: 28px;
+        line-height: 37px;
+        margin-top: 40px;
+    }
+    .sixth_first p{
+        width: 314px;
+        height: 52px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width:768px){
+    .max{
+        display: none;
+    }
+    .min{
+        display: block;
+    }
+    .iphoneX h1{
+         width: 100%;
+         height: 37px;
+         font-size: 40px;
+         line-height: 24px;
+         margin-top: 27px;
+     }
+    .iphoneX h2{
+        width: 100%;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .iphoneX span{
+        display: block;
+        width: 100%;
+        height: 33px;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .iphoneX div {
+        width: 320px;
+        height: 353px;
+        background: url("../img/iphone_x_small.jpg") no-repeat center;
+        background-size: 320px 353px;
+    }
+
+
+
+    /*ipad*/
+    .ipad h1{
+        width: 100%;
+        height: 37px;
+        font-size: 40px;
+        line-height: 24px;
+        margin-top: 27px;
+    }
+    .ipad h2{
+        width: 100%;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .ipad span{
+        display: block;
+        width: 100%;
+        height: 33px;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .ipad div {
+        width: 228px;
+        height: 340px;
+        background: url("../img/ipad_small.jpg") no-repeat center;
+        background-size: 228px 340px;
+    }
+
+
+
+    .MacBook h1{
+        width: 100%;
+        height: 37px;
+        font-size: 40px;
+        line-height: 24px;
+        margin-top: 27px;
+    }
+    .MacBook h2{
+        width: 100%;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .MacBook span{
+        display: block;
+        width: 100%;
+        height: 33px;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .MacBook{
+        background: url("../img/macbook_pro_performance_small.jpg") no-repeat center;
+        /*background-size: 100% 580px;*/
+    }
+    .list ul li {
+        height: 500px;
+    }
+    .sixth ul li {
+        width: 100%;
+        height: 350px;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:12px solid #fff ;
+        box-sizing:border-box;
+        float: left;
+    }
+    .sixth ul li a{
+        width: 100%;
+        height: 100%;
+        background: url("../img/shop_for_college_small.jpg") no-repeat center;
+    }
+    .sixth ul li:nth-child(2n){
+        border-left:none ;
+        border-right:none;
+    }
+    .sixth_first h4{
+        height: 37px;
+        font-size: 28px;
+        line-height: 37px;
+        margin-top: 36px;
+    }
+    .sixth_first p{
+        width: 263px;
+        height: 52px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
