@@ -120,12 +120,12 @@ nav ul a:hover{
     text-align: center;
 }
 .ipad div{
-    position: absolute;
-    bottom:-32px;
-    left:0;
-    right:0;
-    margin-left: auto;
-    margin-right: auto;
+    /*position: absolute;*/
+    /*bottom:-32px;*/
+    /*left:0;*/
+    /*right:0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 
@@ -500,12 +500,12 @@ nav ul a:hover{
          height: 337px;
          background:url("../img/iphone_x_large.jpg") no-repeat center;
          background-size:1068px 337px ;
-        position: absolute;
-        bottom:-32px;
-        left:0;
-        right:0;
-        margin-left: auto;
-        margin-right: auto;
+         position: absolute;
+         bottom:-32px;
+         left:0;
+         right:0;
+         margin-left: auto;
+         margin-right: auto;
      }
     .ipad h1{
         width: 100%;
@@ -532,6 +532,12 @@ nav ul a:hover{
         height: 355px;
         background:url("../img/ipad_large.jpg") no-repeat center;
         background-size:930px 355px ;
+        position: absolute;
+        bottom:-32px;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -679,6 +685,12 @@ nav ul a:hover{
         height: 325px;
         background: url("../img/ipad_medium.jpg") no-repeat center;
         background-size: 650px 325px;
+        position: absolute;
+        bottom:-32px;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -787,6 +799,12 @@ nav ul a:hover{
         height: 353px;
         background: url("../img/iphone_x_small.jpg") no-repeat center;
         background-size: 320px 353px;
+        position: absolute;
+        bottom:20px;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
